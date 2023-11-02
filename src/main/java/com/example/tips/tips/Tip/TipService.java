@@ -1,5 +1,6 @@
 package com.example.tips.tips.Tip;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -18,5 +19,7 @@ public class TipService {
 
 
         return tipRequest.value() + value;
+
+
     }
 }
